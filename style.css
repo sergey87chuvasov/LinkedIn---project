@@ -128,6 +128,8 @@ a {
 .left-sidebar {
   flex-basis: 25%;
   align-self: flex-start;
+  position: sticky;
+  top: 73px;
 }
 
 .sidebar-profile-box {
@@ -244,6 +246,8 @@ a {
 .right-sidebar {
   flex-basis: 25%;
   align-self: flex-start;
+  position: sticky;
+  top: 73px;
 }
 
 .sidebar-news {
@@ -496,4 +500,65 @@ a {
 
 .liked-users {
   margin-right: 10px;
+}
+
+.post-activity {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.post-activity-user-icon {
+  width: 22px;
+  border-radius: 50%;
+}
+
+.post-activity-arrow-icon {
+  width: 12px;
+  margin-left: 5px;
+}
+
+.post-activity-link img {
+  width: 18px;
+  margin-right: 8px;
+}
+
+
+/* -------------  profile-drop-down-menu  --------------*/
+.profile-menu-wrap {
+  position: absolute;
+  top: 100%;
+  right: 5%;
+  width: 320px;
+}
+
+.profile-menu {
+  background: #222;
+  color: #fff;
+  padding: 20px;
+  margin: 10px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-info img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.user-info h3 {
+  font-weight: 500;
+  margin-bottom: -7px;
+}
+
+.user-info a {
+  color: #c9dbf8;
+  font-size: 13px;
 }
