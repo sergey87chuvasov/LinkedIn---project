@@ -30,13 +30,13 @@
     </div>
     <div class="navbar-right">
       <div class="online">
-        <img class="nav-profile-img" src="./images/user-1.png" alt="user pic">
+        <img class="nav-profile-img" src="./images/user-1.png" onclick="toggleMenu()" alt="user pic">
       </div>
     </div>
 
     <!----------------- profile-drop-down-menu ------------------>
 
-    <div class="profile-menu-wrap">
+    <div class="profile-menu-wrap" id="profileMenu">
       <div class="profile-menu">
         <div class="user-info">
           <img src="./images/user-2.png" alt="user pic">
@@ -46,7 +46,31 @@
           </div>
         </div>
         <hr>
-        
+        <a class="profile-menu-link" href="#">
+          <img src="./images/feedback.png" alt="feedback pic">
+          <p>Settings & Privacy</p>
+          <span>></span>
+        </a>
+        <a class="profile-menu-link" href="#">
+          <img src="./images/setting.png" alt="settings pic">
+          <p>Give Feedback</p>
+          <span>></span>
+        </a>
+        <a class="profile-menu-link" href="#">
+          <img src="./images/help.png" alt="help pic">
+          <p>Help & support</p>
+          <span>></span>
+        </a>
+        <a class="profile-menu-link" href="#">
+          <img src="./images/display.png" alt="disply pic">
+          <p>Display & Accessibility </p>
+          <span>></span>
+        </a>
+        <a class="profile-menu-link" href="#">
+          <img src="./images/logout.png" alt="logout pic">
+          <p>Logout</p>
+          <span>></span>
+        </a>
       </div>
     </div>
   </nav>
