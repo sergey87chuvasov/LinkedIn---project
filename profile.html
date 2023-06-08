@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Linkedin project</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="navbar-left">
+      <a class="logo" href="index.html">
+        <img src="./images/logo.png" alt="logo pic">
+      </a>
+      <div class="search-box">
+        <img src="./images/search.png" alt="search pic">
+        <input type="text" placeholder="Search">
+      </div>
+    </div>
+    <div class="navbar-center">
+      <ul>
+        <li><a class="active-link" href="#"><img src="./images/home.png" alt=""><span>Home</span></a></li>
+        <li><a href="#"><img src="./images/network.png" alt=""><span>My Network</span></a></li>
+        <li><a href="#"><img src="./images/jobs.png" alt=""><span>Jobs</span></a></li>
+        <li><a href="#"><img src="./images/message.png" alt=""><span>Messaging</span></a></li>
+        <li><a href="#"><img src="./images/notification.png" alt=""><span>Notifications</span></a></li>
+      </ul>
+    </div>
+    <div class="navbar-right">
+      <div class="online">
+        <img class="nav-profile-img" src="./images/user-1.png" onclick="toggleMenu()" alt="user pic">
+      </div>
+    </div>
+
+    <!----------------- profile-drop-down-menu ------------------>
+
+    <div class="profile-menu-wrap" id="profileMenu">
+      <div class="profile-menu">
+        <div class="user-info">
+          <img src="./images/user-2.png" alt="user pic">
+          <div>
+            <h3>Serge Che</h3>
+            <a href="#">See your profile</a>
+          </div>
+        </div>
+        <hr>
+        <a class="profile-menu-link" href="#">
+          <img src="./images/feedback.png" alt="feedback pic">
+          <p>Settings & Privacy</p>
+          <span>></span>
+        </a>
+        <a class="profile-menu-link" href="#">
+          <img src="./images/setting.png" alt="settings pic">
+          <p>Give Feedback</p>
+          <span>></span>
+        </a>
+        <a class="profile-menu-link" href="#">
+          <img src="./images/help.png" alt="help pic">
+          <p>Help & support</p>
+          <span>></span>
+        </a>
+        <a class="profile-menu-link" href="#">
+          <img src="./images/display.png" alt="disply pic">
+          <p>Display & Accessibility </p>
+          <span>></span>
+        </a>
+        <a class="profile-menu-link" href="#">
+          <img src="./images/logout.png" alt="logout pic">
+          <p>Logout</p>
+          <span>></span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <div class="profile-main">
+      <div class="profile-container">
+        <img src="./images/cover-pic.png" alt="profile-pic" width="100%">
+        <div class="profile-container-inner">
+          <img class="profile-pic" src="./images/user-1.png" alt="user pic">
+          <h1>Tom Walker</h1>
+          <b>Web Developer at Microsoft</b>
+          <p>Minsk, Belarus &middot;<a href="#">Contact info</a></p>
+          <div class="mutual-connection">
+            <img src="./images/user-2.png" alt="user pic">
+            <span>1 mutual connection: Orlando Bloom</span>
+          </div>
+          <div class="profile-btn">
+            <a href="#" class="primary-btn"><img src="./images/connect.png" alt="btn pic">Connect</a>
+            <a href="#"><img src="./images/chat.png" alt="chat pic">Message</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="profile-sidebar"></div>
+
+  </div>
+
+
+  <script src="./script.js"></script>
+</body>
+</html>
